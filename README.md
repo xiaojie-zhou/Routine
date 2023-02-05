@@ -3,8 +3,9 @@ Project for CS 125 Next Generation Search Systems
 
 Platforms: For webpages
 
-Backend: Java Spring
-Frontend: React
+Backend: ???
+
+Frontend: Ionic
 
 <strong>Milestone 1:</strong> Implementation of Basic services & Feature Exploring & Database/Index Design
 
