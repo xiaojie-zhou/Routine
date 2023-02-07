@@ -5,6 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edf17d9a-2412-434e-9dbe-87929437e241" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ucics125/WeightMate/WeightMateApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ucics125/WeightMate/restservice/responseModel/Greeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ucics125/WeightMate/restservice/restservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ucics125/WeightMate/WeightMateApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,11 +57,10 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth0": "565",
+    "RequestMappingsPanelWidth1": "565",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "true",
     "last_opened_file_path": "/Users/XiaojieZhou/CS125/WeightMate",
     "node.js.detected.package.eslint": "true",
@@ -79,10 +89,17 @@
       <recent name="$PROJECT_DIR$/idm/src/main/java" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager">
-    <configuration name="WeightMateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="WeightMateApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="WeightMate" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cs125.WeightMate.IdentityManagement" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ucics125.WeightMate.WeightMateApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,6 +124,7 @@
       <workItem from="1674797825491" duration="935000" />
       <workItem from="1674860297967" duration="36000" />
       <workItem from="1675371184444" duration="1798000" />
+      <workItem from="1675722722107" duration="3657000" />
     </task>
     <task id="LOCAL-00001" summary="Frameworks">
       <created>1674793706880</created>
