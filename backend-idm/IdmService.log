@@ -51,3 +51,12 @@ Action:
 
 Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
 
+2023-02-10 15:26:11.725  INFO 36540 --- [main] c.g.k.cs122b.idm.IDMService              : Starting IDMService using Java 19.0.2 on dhcp-v042-243.mobile.uci.edu with PID 36540 (/Users/XiaojieZhou/CS125/WeightMate/backend-idm/target/classes started by XiaojieZhou in /Users/XiaojieZhou/CS125/WeightMate/backend-idm)
+2023-02-10 15:26:11.732  INFO 36540 --- [main] c.g.k.cs122b.idm.IDMService              : No active profile set, falling back to 1 default profile: "default"
+2023-02-10 15:26:12.150  INFO 36540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-02-10 15:26:12.154  INFO 36540 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-10 15:26:12.154  INFO 36540 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-02-10 15:26:12.193  INFO 36540 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-10 15:26:12.193  INFO 36540 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 437 ms
+2023-02-10 15:26:12.412  INFO 36540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-02-10 15:26:12.417  INFO 36540 --- [main] c.g.k.cs122b.idm.IDMService              : Started IDMService in 0.858 seconds (JVM running for 1.125)

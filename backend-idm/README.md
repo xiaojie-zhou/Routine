@@ -1,4 +1,4 @@
-# CS122B Backend 1 - The IDM Service
+# CS125 Backend 1 - The IDM
 
 #### [Application Settings](#application-settings)
 
