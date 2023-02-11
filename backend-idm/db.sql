@@ -5,6 +5,7 @@ create table idm.token_status (
     value varchar(32) not null
 );
 
+
 create table idm.user_status(
   id int not null primary key,
   value varchar(32) not null

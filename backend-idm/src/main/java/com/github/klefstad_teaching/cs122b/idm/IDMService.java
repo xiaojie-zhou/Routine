@@ -16,5 +16,6 @@ public class IDMService
     public static void main(String[] args)
     {
         SpringApplication.run(IDMService.class, args);
+        
     }
 }
