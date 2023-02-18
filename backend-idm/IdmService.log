@@ -1,89 +1,9 @@
-2023-02-10 14:31:17.411  INFO 32018 --- [main] c.g.k.cs122b.idm.IDMService              : Starting IDMService using Java 18 on dhcp-v042-243.mobile.uci.edu with PID 32018 (/Users/XiaojieZhou/CS122B/cs122b-be1/target/classes started by XiaojieZhou in /Users/XiaojieZhou/CS122B/cs122b-be1)
-2023-02-10 14:31:17.418  INFO 32018 --- [main] c.g.k.cs122b.idm.IDMService              : No active profile set, falling back to 1 default profile: "default"
-2023-02-10 14:31:18.607  INFO 32018 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2023-02-10 14:31:18.616  INFO 32018 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-02-10 14:31:18.616  INFO 32018 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
-2023-02-10 14:31:18.700  INFO 32018 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-02-10 14:31:18.701  INFO 32018 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1142 ms
-2023-02-10 14:31:19.175  INFO 32018 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2023-02-10 14:31:19.189  INFO 32018 --- [main] c.g.k.cs122b.idm.IDMService              : Started IDMService in 2.201 seconds (JVM running for 2.821)
-2023-02-10 14:37:41.286  INFO 32018 --- [http-nio-0.0.0.0-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-02-10 14:37:41.287  INFO 32018 --- [http-nio-0.0.0.0-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-02-10 14:37:41.291  INFO 32018 --- [http-nio-0.0.0.0-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2023-02-10 14:37:41.296  INFO 32018 --- [http-nio-0.0.0.0-8081-exec-1] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /register]
-2023-02-10 14:37:41.320  INFO 32018 --- [http-nio-0.0.0.0-8081-exec-2] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [POST /register]
-2023-02-10 14:37:41.443  INFO 32018 --- [http-nio-0.0.0.0-8081-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-02-10 14:37:41.669  INFO 32018 --- [http-nio-0.0.0.0-8081-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-02-10 14:40:14.901  INFO 32018 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2023-02-10 14:40:14.915  INFO 32018 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2023-02-10 15:13:53.793  INFO 35082 --- [main] c.g.k.cs122b.idm.IDMService              : Starting IDMService using Java 18 on dhcp-v042-243.mobile.uci.edu with PID 35082 (/Users/XiaojieZhou/CS125/WeightMate/backend-idm/target/classes started by XiaojieZhou in /Users/XiaojieZhou/CS125/WeightMate/backend-idm)
-2023-02-10 15:13:53.796  INFO 35082 --- [main] c.g.k.cs122b.idm.IDMService              : No active profile set, falling back to 1 default profile: "default"
-2023-02-10 15:13:55.057  INFO 35082 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2023-02-10 15:13:55.064  INFO 35082 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-02-10 15:13:55.065  INFO 35082 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
-2023-02-10 15:13:55.155  INFO 35082 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-02-10 15:13:55.155  INFO 35082 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1246 ms
-2023-02-10 15:13:55.724  INFO 35082 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2023-02-10 15:13:55.739  INFO 35082 --- [main] c.g.k.cs122b.idm.IDMService              : Started IDMService in 2.368 seconds (JVM running for 3.098)
-2023-02-10 15:13:56.406  INFO 35090 --- [main] c.g.k.cs122b.idm.IDMService              : Starting IDMService using Java 18 on dhcp-v042-243.mobile.uci.edu with PID 35090 (/Users/XiaojieZhou/CS125/WeightMate/backend-idm/target/classes started by XiaojieZhou in /Users/XiaojieZhou/CS125/WeightMate/backend-idm)
-2023-02-10 15:13:56.409  INFO 35090 --- [main] c.g.k.cs122b.idm.IDMService              : No active profile set, falling back to 1 default profile: "default"
-2023-02-10 15:13:57.620  INFO 35090 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2023-02-10 15:13:57.625  INFO 35090 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-02-10 15:13:57.626  INFO 35090 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
-2023-02-10 15:13:57.711  INFO 35090 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-02-10 15:13:57.711  INFO 35090 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1167 ms
-2023-02-10 15:13:58.195  WARN 35090 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
-2023-02-10 15:13:58.198  INFO 35090 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2023-02-10 15:13:58.212  INFO 35090 --- [main] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2023-02-10 15:13:58.221 ERROR 35090 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8081 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
-
-2023-02-10 15:26:11.725  INFO 36540 --- [main] c.g.k.cs122b.idm.IDMService              : Starting IDMService using Java 19.0.2 on dhcp-v042-243.mobile.uci.edu with PID 36540 (/Users/XiaojieZhou/CS125/WeightMate/backend-idm/target/classes started by XiaojieZhou in /Users/XiaojieZhou/CS125/WeightMate/backend-idm)
-2023-02-10 15:26:11.732  INFO 36540 --- [main] c.g.k.cs122b.idm.IDMService              : No active profile set, falling back to 1 default profile: "default"
-2023-02-10 15:26:12.150  INFO 36540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2023-02-10 15:26:12.154  INFO 36540 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-02-10 15:26:12.154  INFO 36540 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
-2023-02-10 15:26:12.193  INFO 36540 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-02-10 15:26:12.193  INFO 36540 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 437 ms
-2023-02-10 15:26:12.412  INFO 36540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2023-02-10 15:26:12.417  INFO 36540 --- [main] c.g.k.cs122b.idm.IDMService              : Started IDMService in 0.858 seconds (JVM running for 1.125)
-2023-02-10 16:50:56.940  INFO 38024 --- [main] c.g.k.cs122b.idm.IDMService              : Starting IDMService using Java 19.0.2 on Xiaojies-MacBook-Pro.local with PID 38024 (/Users/XiaojieZhou/CS125/WeightMate/backend-idm/target/classes started by XiaojieZhou in /Users/XiaojieZhou/CS125/WeightMate/backend-idm)
-2023-02-10 16:50:56.942  INFO 38024 --- [main] c.g.k.cs122b.idm.IDMService              : No active profile set, falling back to 1 default profile: "default"
-2023-02-10 16:50:57.377  INFO 38024 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2023-02-10 16:50:57.382  INFO 38024 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-02-10 16:50:57.382  INFO 38024 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
-2023-02-10 16:50:57.414  INFO 38024 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-02-10 16:50:57.414  INFO 38024 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 432 ms
-2023-02-10 16:50:57.599  INFO 38024 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2023-02-10 16:50:57.605  INFO 38024 --- [main] c.g.k.cs122b.idm.IDMService              : Started IDMService in 1.047 seconds (JVM running for 1.202)
-2023-02-10 17:19:53.572  INFO 38818 --- [main] c.g.k.cs122b.idm.IDMService              : Starting IDMService using Java 19.0.2 on Xiaojies-MacBook-Pro.local with PID 38818 (/Users/XiaojieZhou/CS125/WeightMate/backend-idm/target/classes started by XiaojieZhou in /Users/XiaojieZhou/CS125/WeightMate/backend-idm)
-2023-02-10 17:19:53.573  INFO 38818 --- [main] c.g.k.cs122b.idm.IDMService              : No active profile set, falling back to 1 default profile: "default"
-2023-02-10 17:19:53.926  INFO 38818 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2023-02-10 17:19:53.930  INFO 38818 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-02-10 17:19:53.931  INFO 38818 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
-2023-02-10 17:19:53.965  INFO 38818 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-02-10 17:19:53.965  INFO 38818 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 374 ms
-2023-02-10 17:19:54.169  INFO 38818 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2023-02-10 17:19:54.174  INFO 38818 --- [main] c.g.k.cs122b.idm.IDMService              : Started IDMService in 0.751 seconds (JVM running for 1.169)
-2023-02-10 17:21:11.737  INFO 38826 --- [main] c.g.k.cs122b.idm.IDMService              : Starting IDMService using Java 19.0.2 on Xiaojies-MacBook-Pro.local with PID 38826 (/Users/XiaojieZhou/CS125/WeightMate/backend-idm/target/classes started by XiaojieZhou in /Users/XiaojieZhou/CS125/WeightMate/backend-idm)
-2023-02-10 17:21:11.742  INFO 38826 --- [main] c.g.k.cs122b.idm.IDMService              : No active profile set, falling back to 1 default profile: "default"
-2023-02-10 17:21:12.119  INFO 38826 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2023-02-10 17:21:12.123  INFO 38826 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-02-10 17:21:12.123  INFO 38826 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
-2023-02-10 17:21:12.157  INFO 38826 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-02-10 17:21:12.157  INFO 38826 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 391 ms
-2023-02-10 17:21:12.399  INFO 38826 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2023-02-10 17:21:12.405  INFO 38826 --- [main] c.g.k.cs122b.idm.IDMService              : Started IDMService in 0.827 seconds (JVM running for 1.066)
+2023-02-17 16:32:56.399  INFO 10011 --- [main] c.g.k.cs122b.idm.IDMService              : Starting IDMService using Java 19.0.2 on dhcp-v047-019.mobile.uci.edu with PID 10011 (/Users/XiaojieZhou/CS125/WeightMate/backend-idm/target/classes started by XiaojieZhou in /Users/XiaojieZhou/CS125/WeightMate/backend-idm)
+2023-02-17 16:32:56.403  INFO 10011 --- [main] c.g.k.cs122b.idm.IDMService              : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 16:32:56.958  INFO 10011 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-02-17 16:32:56.962  INFO 10011 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 16:32:56.963  INFO 10011 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-02-17 16:32:57.001  INFO 10011 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-17 16:32:57.001  INFO 10011 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 527 ms
+2023-02-17 16:32:57.232  INFO 10011 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-02-17 16:32:57.241  INFO 10011 --- [main] c.g.k.cs122b.idm.IDMService              : Started IDMService in 1.012 seconds (JVM running for 1.281)
