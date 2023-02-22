@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="024f53fe-ac56-45c5-946a-0f1221e4df59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IdmService.log.2023-02-10.0.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdmService.log" beforeDir="false" afterPath="$PROJECT_DIR$/IdmService.log" afterDir="false" />
-    </list>
+    <list default="true" id="024f53fe-ac56-45c5-946a-0f1221e4df59" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +34,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -58,7 +53,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "ae77cb9bebc4810cf0385c7e2a017c58",
+    "spring.configuration.checksum": "acf4e5789ace2d479b1cec3ed9323856",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -103,6 +98,7 @@
       <workItem from="1676078919574" duration="40000" />
       <workItem from="1676680352872" duration="1566000" />
       <workItem from="1676691050141" duration="56000" />
+      <workItem from="1677032637027" duration="67000" />
     </task>
     <servers />
   </component>
