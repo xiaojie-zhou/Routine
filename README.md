@@ -1,9 +1,9 @@
-# WeightMate
+# Routine
 Project for CS 125 Next Generation Search Systems
 
-Platforms: For webpages
+Platforms: Webpages
 
-Backend: ???
+Backend: Java Spring
 
 Frontend: Ionic
 
