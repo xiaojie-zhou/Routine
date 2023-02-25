@@ -19,7 +19,7 @@ const NavBar = () => {
     return (
 
             <header><a href="/">
-                <h4 className="logo">WeightMate</h4>
+                <h4 className="logo">Routine</h4>
             </a>
                 <nav>
                     <ul>
