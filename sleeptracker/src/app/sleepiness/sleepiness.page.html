@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Choose your Sleepiness</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="background-pic">
+  <div class="sleepiness-choices">
+    <ion-list>
+      <ion-radio-group [(ngModel)]="currentChoice" (ionChange)="beChosen()" [value]="currentChoice">
+        <ion-item *ngFor="let c of choicesList; let index = index;" class="choices">
+          <ion-text>{{c}}</ion-text>
+          <ion-radio slot="end" [value]="index"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-list>
+  </div>
+
+  <div class="toButtons">
+    <ion-row class="direct">
+      <ion-col>
+        <ion-button class="toHome-btn" (click)="goBack()" color="danger" style="text-transform:none">
+          Go Back
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button class="toHome-btn" (click)="toHome()" color="danger" style="text-transform:none">
+          Go Home
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button class="toLogSleepiness-btn" (click)="toLogSleepiness()" color="danger" style="text-transform:none">
+          View Sleepiness Data
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button class="toLogSleepiness-btn" (click)="toLogOvernight()" color="danger" style="text-transform:none">
+          View Overnight Data
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button class="toLogSleepiness-btn" (click)="toSleepTimer()" color="danger" style="text-transform:none">
+          Go to Use Timer
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </div>
+</ion-content>
+

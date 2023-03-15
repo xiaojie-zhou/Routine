@@ -1,0 +1,48 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Sleep Tracker
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="background-pic" [fullscreen]="true">
+  <div class="container">
+    <div class="current-info1">
+      <p>{{currentTime | date: 'HH:mm'}}</p>
+    </div>
+    <div class="current-info2">
+      <p>{{currentTime | date: 'MM/dd'}}</p>
+      <p>{{currentDay}}</p>
+    </div>
+    <ion-grid class="buttons1">
+      <ion-row>
+        <ion-col>
+          <ion-button class="timer-btn" (click)="timerAlert()" color="secondary" style="text-transform:none">
+            Timer
+          </ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button class="sleepiness-btn" (click)="sleepinessAlert()" color="secondary" style="text-transform:none">
+            Sleepiness
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid class="buttons2">
+      <ion-row>
+        <ion-col>
+          <ion-button class="timer-btn" (click)="toLogOvernight()" color="secondary" style="text-transform:none">
+            ViewOvernight
+          </ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button class="sleepiness-btn" (click)="toLogSleepiness()" color="secondary" style="text-transform:none">
+            ViewSleepiness
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>
+

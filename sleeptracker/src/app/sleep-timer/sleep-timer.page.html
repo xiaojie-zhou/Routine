@@ -1,0 +1,95 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Sleeper Timer</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="background-pic" [fullscreen]="true">
+  <div class="container">
+    <div class="show-time">
+      <ion-row>
+        <ion-col></ion-col>
+        <ion-col style="text-align:center; font-size: 30px;">
+          {{currentTime.h}}:{{currentTime.m}}:{{currentTime.s}}
+        </ion-col>
+        <ion-col></ion-col>
+      </ion-row>
+    </div>
+
+    <ion-grid class="buttons1">
+      <ion-row class="start-terminate">
+        <ion-col>
+          <ion-button (click)="startAlert()" color="tertiary" style="text-transform:none">
+            Start
+          </ion-button>
+          <ion-button (click)="terminateAlert()" color="tertiary" style="text-transform:none">
+            Terminate
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-grid class="buttons2">
+      <ion-row class="pause-resume-reset">
+        <ion-col>
+          <ion-button (click)="pauseAlert()" color="tertiary" style="text-transform:none">
+            Pause
+          </ion-button>
+          <ion-button (click)="resumeAlert()" color="tertiary" style="text-transform:none">
+            Resume
+          </ion-button>
+          <ion-button (click)="resetAlert()" color="tertiary" style="text-transform:none">
+            Reset
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <div class="buttons3">
+      <ion-row class="toHome">
+        <ion-col>
+          <ion-button (click)="goBack()" color="tertiary" style="text-transform:none">
+            Go Back
+          </ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button (click)="toHome()" color="tertiary" style="text-transform:none">
+            Go Home
+          </ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button (click)="toSleepiness()" color="tertiary" style="text-transform:none">
+            Go to Choose Sleepiness
+          </ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row class="toLogOvernight">
+        <ion-col>
+          <ion-button (click)="toLogOvernight()" color="tertiary" style="text-transform:none">
+            View Overnight Data
+          </ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row class="toLogSleepiness">
+        <ion-col>
+          <ion-button (click)="toLogSleepiness()" color="tertiary" style="text-transform:none">
+            View Sleepiness Data
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </div>
+
+    <ion-grid class="showDiff" *ngIf="showDiff">
+      <ion-row>
+        <ion-col>
+          <ion-card>
+              <ion-card-content class="card">
+                <p>Your sleep duration is: {{diff}}</p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>
+

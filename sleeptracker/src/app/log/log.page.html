@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Overnight Sleep Data</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="background-pic">
+  <div class="container">
+    <ion-row class="buttons">
+      <ion-col>
+        <ion-button (click)="goBack()" color="warning" style="text-transform:none">
+          Go Back
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button (click)="toHome()" color="warning" style="text-transform:none">
+          Go Home
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-card  *ngFor="let ov of overnightRes">
+      <ion-card-header>
+        <ion-card-content class="card">
+          <p>{{ov['dateInfo']}}:</p>
+          <p>{{ov['summary']}}</p>
+        </ion-card-content>
+      </ion-card-header>
+    </ion-card>
+  </div>
+</ion-content>
+

@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Sleepiness Data</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="background-pic">
+  <ion-row>
+    <ion-col>
+      <ion-button (click)="goBack()" color="dark" style="text-transform:none">
+        Go Back
+      </ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="toHome()" color="dark" style="text-transform:none">
+        Go Home
+      </ion-button>
+    </ion-col>
+  </ion-row>
+  <ion-card  *ngFor="let sl of sleepinessRes">
+    <ion-card-header>
+      <ion-card-content class="card">
+        <p>{{sl['dateInfo']}}</p>
+        <p>{{sl['summary']}}</p>
+      </ion-card-content>
+    </ion-card-header>
+  </ion-card>
+</ion-content>
+
