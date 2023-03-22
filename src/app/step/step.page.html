@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>User Input</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="background-pic" [fullscreen]="true">
+
+  <ion-button class="sleepiness-btn" (click)="goBack()" color="dark" style="text-transform:none">
+    Go Back
+  </ion-button>
+
+  <ion-button class="sleepiness-btn" (click)="toHome()" color="dark" style="text-transform:none">
+    Go Home
+  </ion-button>
+
+  <ion-item>
+    <ion-label>Target Step Count: </ion-label>
+    <ion-input [(ngModel)]="targetStep" placeholder="Enter an integer"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Actual Step Count: </ion-label>
+    <ion-input [(ngModel)]="realStep" placeholder="Enter an integer"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Target Sleep Time: </ion-label>
+    <ion-input [(ngModel)]="targetSleep" placeholder="Enter HH:MM"></ion-input>
+  </ion-item>
+
+  <ion-button class="toLogSleepiness-btn" (click)="enterStep()" color="dark" style="text-transform:none">
+    Enter Step Info
+  </ion-button>
+
+  <ion-button class="toLogSleepiness-btn" (click)="enterSleep()" color="dark" style="text-transform:none">
+    Enter Sleep Info
+  </ion-button>
+
+  <ion-button class="toLogSleepiness-btn" (click)="toRecom()" color="dark" style="text-transform:none">
+    Vew Recommendation
+  </ion-button>
+</ion-content>
+
